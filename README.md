@@ -3,7 +3,7 @@ Prerequisites:
 - A working Kubernets cluster (Minikube or Docker-desktop k8s atleast)
 - An SSH key pair on your local Linux/MacOS/BSD machine
 
-**Step 1: **
+**Step 1:** 
 Run ArgoCD as deployment in your K8s cluster 
 
  1. create a argocd namespace -
@@ -36,6 +36,6 @@ Deploy a Application into K8s cluster using ArgoCD
    $ argocd app sync helm-nginx
 5. Confirm the Nginx is running on port mentioned in https://github.com/manojsaik/argocd/blob/main/nginx-chart/templates/service.yaml#L13 (30081) as of now
 
-Thank you 
+Thank you --
 Manoj 
 
