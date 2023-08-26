@@ -10,6 +10,6 @@ spec:
   - port: 80
     protocol: TCP
     targetPort: 80
-    nodePort: 30080 #-37676 #optional will be added randomly if not given 
+    nodePort: 30081 #-37676 #optional will be added randomly if not given 
   selector:
     tier: frontend
